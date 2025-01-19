@@ -1,21 +1,19 @@
 package com.product.producer_ms.service.impl;
 
-import com.product.producer_ms.model.ProductModel;
+import com.library.model.core.ProductModel;
 import com.product.producer_ms.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.support.SendResult;
 import org.springframework.stereotype.Service;
 import java.util.UUID;
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ExecutionException;
 
-import static com.product.producer_ms.config.TopicConstants.LOCATION_UPDATE_TOPIC;
+import static com.library.model.core.TopicConstants.PRODUCT_ORDER_MS;
 
 @Service
 public class ProductServiceImpl implements ProductService {
     @Autowired
-    KafkaTemplate<String,ProductModel> kafkaTemplate;
+    KafkaTemplate<String, ProductModel> kafkaTemplate;
 
     @Override
     public String createProducet(ProductModel productModel) throws Exception {
@@ -34,7 +32,7 @@ public class ProductServiceImpl implements ProductService {
 
         //synchronous way
         System.out.println("****** Before send method called: ");
-        SendResult<String, ProductModel> result = kafkaTemplate.send(LOCATION_UPDATE_TOPIC, productId, productModel).get();
+        SendResult<String, ProductModel> result = kafkaTemplate.send(PRODUCT_ORDER_MS, productId, productModel).get();
         System.out.println("****** Partition: "+result.getRecordMetadata().partition());
         System.out.println("****** Topic: "+result.getRecordMetadata().topic());
         System.out.println("****** Offset: "+result.getRecordMetadata().offset());
