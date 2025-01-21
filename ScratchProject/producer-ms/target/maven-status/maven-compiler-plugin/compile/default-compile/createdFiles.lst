@@ -1,0 +1,6 @@
+com\product\producer_ms\service\impl\ProductServiceImpl.class
+com\product\producer_ms\service\ProductService.class
+com\product\producer_ms\config\KafkaConfig.class
+com\product\producer_ms\controller\ProductController.class
+com\product\producer_ms\model\ErrorMessage.class
+com\product\producer_ms\ProducerMsApplication.class

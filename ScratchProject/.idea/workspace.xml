@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="63ea9164-32a5-475f-af70-ba84ffd51dd5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/error/NotRetryableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/error/RetryableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/io/ProcessedEventEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/io/ProcessedEventRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ScratchProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/KafkaConsumerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/KafkaConsumerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/handler/ProductCreatedEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/handler/ProductCreatedEventHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/effective-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-ms/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-ms/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-ms/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-ms/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-ms/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-ms/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-ms/.idea/producer-ms.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-ms/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/src/main/java/com/product/producer_ms/ProducerMsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/src/main/java/com/product/producer_ms/config/KafkaConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/src/main/java/com/product/producer_ms/controller/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/src/main/java/com/product/producer_ms/model/ErrorMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/src/main/java/com/product/producer_ms/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/src/main/java/com/product/producer_ms/service/impl/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/src/test/java/com/product/producer_ms/ProducerMsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/kafkaFromScratch.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../doc/kafkaFromScratch.docx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2rqpzD6to6zMd41nZ3GalDYE7YH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EmailNotificationMicroserviceApplication.executor": "Run",
+    "Application.MockserviceApplication.executor": "Run",
+    "Application.ProducerMsApplication.executor": "Run",
+    "Maven.common core.executor": "Run",
+    "Maven.email notification.executor": "Run",
+    "Maven.mockService.executor": "Run",
+    "Maven.producer-ms.executor": "Run",
+    "Maven.producer.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/FLEX 5/Documents/kafka/ScratchProject/producer-ms",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\FLEX 5\Documents\kafka\ScratchProject\producer-ms" />
+      <recent name="C:\Users\FLEX 5\Documents\kafka\ScratchProject\EmailNotificationMicroservice_consumer\src\main\java\com\appsdeveloperblog\ws\emailnotification" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.library.model.core" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.EmailNotificationMicroserviceApplication">
+    <configuration name="EmailNotificationMicroserviceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.appsdeveloperblog.ws.emailnotification.EmailNotificationMicroserviceApplication" />
+      <module name="EmailNotificationMicroservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.appsdeveloperblog.ws.emailnotification.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockserviceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.appsdeveloperblog.ws.mockservice.MockserviceApplication" />
+      <module name="mockservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.appsdeveloperblog.ws.mockservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerMsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.product.producer_ms.ProducerMsApplication" />
+      <module name="producer-ms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.product.producer_ms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="common core" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/core" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="email notification" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/EmailNotificationMicroservice_consumer" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="mockService" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/mockservice" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="producer-ms" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/producer-ms" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.EmailNotificationMicroserviceApplication" />
+      <item itemvalue="Application.MockserviceApplication" />
+      <item itemvalue="Application.ProducerMsApplication" />
+      <item itemvalue="Maven.email notification" />
+      <item itemvalue="Maven.producer-ms" />
+      <item itemvalue="Maven.mockService" />
+      <item itemvalue="Maven.common core" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EmailNotificationMicroserviceApplication" />
+        <item itemvalue="Application.MockserviceApplication" />
+        <item itemvalue="Application.ProducerMsApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63ea9164-32a5-475f-af70-ba84ffd51dd5" name="Changes" comment="" />
+      <created>1737296719318</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737296719318</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/handler/ProductCreatedEventHandler.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/handler/ProductCreatedEventHandler.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
