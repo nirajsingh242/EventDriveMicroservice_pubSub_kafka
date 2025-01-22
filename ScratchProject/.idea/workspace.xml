@@ -9,48 +9,17 @@
       <change afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/error/RetryableException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/io/ProcessedEventEntity.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/io/ProcessedEventRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ScratchProject.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockservice/src/main/java/com/appsdeveloperblog/ws/mockservice/interceptor/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockservice/src/main/java/com/appsdeveloperblog/ws/mockservice/interceptor/LogInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/KafkaConsumerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/KafkaConsumerConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/handler/ProductCreatedEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/handler/ProductCreatedEventHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/effective-pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer-ms/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer-ms/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer-ms/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer-ms/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer-ms/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer-ms/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer-ms/.idea/producer-ms.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer-ms/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/src/main/java/com/product/producer_ms/ProducerMsApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/src/main/java/com/product/producer_ms/config/KafkaConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/src/main/java/com/product/producer_ms/controller/ProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/src/main/java/com/product/producer_ms/model/ErrorMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/src/main/java/com/product/producer_ms/service/ProductService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/src/main/java/com/product/producer_ms/service/impl/ProductServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer-ms/producer-ms/src/test/java/com/product/producer_ms/ProducerMsApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../doc/kafkaFromScratch.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../doc/kafkaFromScratch.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/~WRL0005.tmp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +36,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -89,7 +65,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/FLEX 5/Documents/kafka/ScratchProject/producer-ms",
+    "last_directory_selection": "C:/Users/FLEX 5/Documents/kafka/ScratchProject/mockservice/src/main/java/com/appsdeveloperblog/ws/mockservice",
+    "last_opened_file_path": "C:/Users/FLEX 5/Documents/kafka/ScratchProject/mockservice/src/main/java/com/appsdeveloperblog/ws/mockservice",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -98,6 +75,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\FLEX 5\Documents\kafka\ScratchProject\mockservice\src\main\java\com\appsdeveloperblog\ws\mockservice" />
       <recent name="C:\Users\FLEX 5\Documents\kafka\ScratchProject\producer-ms" />
       <recent name="C:\Users\FLEX 5\Documents\kafka\ScratchProject\EmailNotificationMicroservice_consumer\src\main\java\com\appsdeveloperblog\ws\emailnotification" />
     </key>
@@ -105,7 +83,7 @@
       <recent name="com.library.model.core" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmailNotificationMicroserviceApplication">
+  <component name="RunManager" selected="Application.MockserviceApplication">
     <configuration name="EmailNotificationMicroserviceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.appsdeveloperblog.ws.emailnotification.EmailNotificationMicroserviceApplication" />
       <module name="EmailNotificationMicroservice" />
@@ -280,8 +258,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EmailNotificationMicroserviceApplication" />
         <item itemvalue="Application.MockserviceApplication" />
+        <item itemvalue="Application.EmailNotificationMicroserviceApplication" />
         <item itemvalue="Application.ProducerMsApplication" />
       </list>
     </recent_temporary>
