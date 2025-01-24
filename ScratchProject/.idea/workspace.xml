@@ -9,8 +9,9 @@
       <change afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/error/RetryableException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/io/ProcessedEventEntity.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/io/ProcessedEventRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mockservice/src/main/java/com/appsdeveloperblog/ws/mockservice/interceptor/InterceptorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mockservice/src/main/java/com/appsdeveloperblog/ws/mockservice/interceptor/LogInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer-ms/src/test/java/com/product/producer_ms/service/impl/ProductServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer-ms/test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/.gitignore" beforeDir="false" />
@@ -18,8 +19,7 @@
       <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/KafkaConsumerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/KafkaConsumerConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/handler/ProductCreatedEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/handler/ProductCreatedEventHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/kafkaFromScratch.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../doc/kafkaFromScratch.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/~WRL0005.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafkatransactional" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkatransactional" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +30,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/EmailNotificationMicroservice_consumer" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
@@ -57,16 +58,22 @@
     "Application.EmailNotificationMicroserviceApplication.executor": "Run",
     "Application.MockserviceApplication.executor": "Run",
     "Application.ProducerMsApplication.executor": "Run",
+    "JUnit.All in producer-ms.executor": "Run",
+    "JUnit.ProductServiceImplTest.executor": "Run",
+    "JUnit.ProductServiceImplTest.testCreateProduct_whenGivenValidProductDetails_successfullySendsKafkaMessage.executor": "Run",
     "Maven.common core.executor": "Run",
     "Maven.email notification.executor": "Run",
     "Maven.mockService.executor": "Run",
     "Maven.producer-ms.executor": "Run",
     "Maven.producer.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "Kafka-Handler",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/FLEX 5/Documents/kafka/ScratchProject/mockservice/src/main/java/com/appsdeveloperblog/ws/mockservice",
-    "last_opened_file_path": "C:/Users/FLEX 5/Documents/kafka/ScratchProject/mockservice/src/main/java/com/appsdeveloperblog/ws/mockservice",
+    "last_opened_file_path": "C:/Users/FLEX 5/Documents/kafka/ScratchProject",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -79,11 +86,17 @@
       <recent name="C:\Users\FLEX 5\Documents\kafka\ScratchProject\producer-ms" />
       <recent name="C:\Users\FLEX 5\Documents\kafka\ScratchProject\EmailNotificationMicroservice_consumer\src\main\java\com\appsdeveloperblog\ws\emailnotification" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.product.producer_ms.service.impl" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.library.model.core" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MockserviceApplication">
+  <component name="RunManager" selected="JUnit.ProductServiceImplTest">
     <configuration name="EmailNotificationMicroserviceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.appsdeveloperblog.ws.emailnotification.EmailNotificationMicroserviceApplication" />
       <module name="EmailNotificationMicroservice" />
@@ -110,15 +123,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerMsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.product.producer_ms.ProducerMsApplication" />
+    <configuration name="All in producer-ms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="producer-ms" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="producer-ms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.product.producer_ms.*" />
+          <option name="PATTERN" value="com.product.producer_ms.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.product.producer_ms.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.product.producer_ms.service.impl.ProductServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceImplTest.testCreateProduct_whenGivenValidProductDetails_successfullySendsKafkaMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="producer-ms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.product.producer_ms.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.product.producer_ms.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.product.producer_ms.service.impl.ProductServiceImplTest" />
+      <option name="METHOD_NAME" value="testCreateProduct_whenGivenValidProductDetails_successfullySendsKafkaMessage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -250,7 +291,9 @@
     <list>
       <item itemvalue="Application.EmailNotificationMicroserviceApplication" />
       <item itemvalue="Application.MockserviceApplication" />
-      <item itemvalue="Application.ProducerMsApplication" />
+      <item itemvalue="JUnit.ProductServiceImplTest" />
+      <item itemvalue="JUnit.ProductServiceImplTest.testCreateProduct_whenGivenValidProductDetails_successfullySendsKafkaMessage" />
+      <item itemvalue="JUnit.All in producer-ms" />
       <item itemvalue="Maven.email notification" />
       <item itemvalue="Maven.producer-ms" />
       <item itemvalue="Maven.mockService" />
@@ -258,9 +301,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductServiceImplTest" />
+        <item itemvalue="JUnit.ProductServiceImplTest.testCreateProduct_whenGivenValidProductDetails_successfullySendsKafkaMessage" />
+        <item itemvalue="JUnit.All in producer-ms" />
         <item itemvalue="Application.MockserviceApplication" />
         <item itemvalue="Application.EmailNotificationMicroserviceApplication" />
-        <item itemvalue="Application.ProducerMsApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -287,6 +332,15 @@
           <url>file://$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/handler/ProductCreatedEventHandler.java</url>
           <line>43</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/producer-ms/src/test/java/com/product/producer_ms/service/impl/ProductServiceImplTest.java</url>
+          <line>52</line>
+          <properties class="com.product.producer_ms.service.impl.ProductServiceImplTest" method="testCreateProduct_whenGivenValidProductDetails_successfullySendsKafkaMessage">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
