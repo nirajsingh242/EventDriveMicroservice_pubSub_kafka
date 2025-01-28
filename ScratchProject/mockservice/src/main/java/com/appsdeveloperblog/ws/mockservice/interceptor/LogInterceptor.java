@@ -9,7 +9,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 public class LogInterceptor implements HandlerInterceptor {
     private final Logger logger = LoggerFactory.getLogger(LogInterceptor.class);
-
     @Override
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
         logger.info("after completion -request URL : " + handler);

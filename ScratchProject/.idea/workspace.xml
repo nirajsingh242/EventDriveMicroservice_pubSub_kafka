@@ -9,9 +9,14 @@
       <change afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/error/RetryableException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/io/ProcessedEventEntity.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/io/ProcessedEventRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer-ms/src/test/java/com/product/producer_ms/service/impl/ProductServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer-ms/test/test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockservice/src/main/java/com/appsdeveloperblog/ws/mockservice/actuators/CustomActuatorEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockservice/src/main/java/com/appsdeveloperblog/ws/mockservice/scheduler/Scheduling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafkatransactional/TransferService/src/main/java/com/appsdeveloperblog/estore/transfers/interceptor/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafkatransactional/TransferService/src/main/java/com/appsdeveloperblog/estore/transfers/interceptor/LogInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafkatransactional/TransferService/src/main/java/com/appsdeveloperblog/estore/transfers/interceptor/aop/TransactionMethodExecutionAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafkatransactional/TransferService/src/main/java/com/appsdeveloperblog/estore/transfers/io/TransferEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafkatransactional/TransferService/src/main/java/com/appsdeveloperblog/estore/transfers/io/TransferRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/.gitignore" beforeDir="false" />
@@ -19,7 +24,17 @@
       <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/KafkaConsumerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/KafkaConsumerConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/handler/ProductCreatedEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/java/com/appsdeveloperblog/ws/emailnotification/handler/ProductCreatedEventHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNotificationMicroservice_consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mockservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockservice/src/main/java/com/appsdeveloperblog/ws/mockservice/interceptor/LogInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/mockservice/src/main/java/com/appsdeveloperblog/ws/mockservice/interceptor/LogInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mockservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockservice/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mockservice/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer-ms/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/producer-ms/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/kafkaFromScratch.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../doc/kafkaFromScratch.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kafkatransactional" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkatransactional" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafkatransactional/TransferService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkatransactional/TransferService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafkatransactional/TransferService/src/main/java/com/appsdeveloperblog/estore/transfers/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkatransactional/TransferService/src/main/java/com/appsdeveloperblog/estore/transfers/KafkaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafkatransactional/TransferService/src/main/java/com/appsdeveloperblog/estore/transfers/service/TransferServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkatransactional/TransferService/src/main/java/com/appsdeveloperblog/estore/transfers/service/TransferServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafkatransactional/TransferService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkatransactional/TransferService/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +44,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/EmailNotificationMicroservice_consumer" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
@@ -53,33 +68,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.EmailNotificationMicroserviceApplication.executor": "Run",
-    "Application.MockserviceApplication.executor": "Run",
-    "Application.ProducerMsApplication.executor": "Run",
-    "JUnit.All in producer-ms.executor": "Run",
-    "JUnit.ProductServiceImplTest.executor": "Run",
-    "JUnit.ProductServiceImplTest.testCreateProduct_whenGivenValidProductDetails_successfullySendsKafkaMessage.executor": "Run",
-    "Maven.common core.executor": "Run",
-    "Maven.email notification.executor": "Run",
-    "Maven.mockService.executor": "Run",
-    "Maven.producer-ms.executor": "Run",
-    "Maven.producer.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "Kafka-Handler",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/FLEX 5/Documents/kafka/ScratchProject/mockservice/src/main/java/com/appsdeveloperblog/ws/mockservice",
-    "last_opened_file_path": "C:/Users/FLEX 5/Documents/kafka/ScratchProject",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.EmailNotificationMicroserviceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MockserviceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProducerMsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in producer-ms.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductServiceImplTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductServiceImplTest.testCreateProduct_whenGivenValidProductDetails_successfullySendsKafkaMessage.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.common core.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.email notification.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mockService.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.producer-ms.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.producer.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/FLEX 5/Documents/kafka/ScratchProject/mockservice/src/main/java/com/appsdeveloperblog/ws/mockservice&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/FLEX 5/Documents/kafka/ScratchProject&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\FLEX 5\Documents\kafka\ScratchProject\mockservice\src\main\java\com\appsdeveloperblog\ws\mockservice" />
@@ -89,6 +104,10 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.appsdeveloperblog.ws.mockservice.actuators" />
+      <recent name="com.appsdeveloperblog.ws.mockservice" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.product.producer_ms.service.impl" />
     </key>
@@ -96,7 +115,7 @@
       <recent name="com.library.model.core" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProductServiceImplTest">
+  <component name="RunManager" selected="Application.MockserviceApplication">
     <configuration name="EmailNotificationMicroserviceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.appsdeveloperblog.ws.emailnotification.EmailNotificationMicroserviceApplication" />
       <module name="EmailNotificationMicroservice" />
@@ -115,7 +134,7 @@
       <module name="mockservice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.appsdeveloperblog.ws.mockservice.*" />
+          <option name="PATTERN" value="com.appsdeveloperblog.ws.mockservice.actuators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -301,11 +320,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MockserviceApplication" />
+        <item itemvalue="Application.EmailNotificationMicroserviceApplication" />
         <item itemvalue="JUnit.ProductServiceImplTest" />
         <item itemvalue="JUnit.ProductServiceImplTest.testCreateProduct_whenGivenValidProductDetails_successfullySendsKafkaMessage" />
         <item itemvalue="JUnit.All in producer-ms" />
-        <item itemvalue="Application.MockserviceApplication" />
-        <item itemvalue="Application.EmailNotificationMicroserviceApplication" />
       </list>
     </recent_temporary>
   </component>
